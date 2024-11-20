@@ -1,0 +1,41 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+using ll = long long;
+int t;
+string s;
+int n;
+bool compare(pair<int,pair<int,char>> p1 , pair<int,pair<int,char>> p2)
+{
+    if(p1.first==p2.first) return p1.second.first>= p2.second.first;
+    return p1.first<= p2.first;
+}
+void solve()
+{
+    cin>>s;
+    n = s.size();
+    int balance = 0;
+    vector<pair<int,pair<int,char>>> v;
+    for(int i = 0; i < n;i++)
+    {
+        if(i==0) v.push_back({0,{0,s[i]}});
+        else{
+        if(v[i - 1].second.second=='(') balance++;
+        else balance--;
+        v.push_back({balance,{i,s[i]}});}
+    }
+    sort(v.begin(),v.end(),compare);
+    for(int i = 0; i < n;i++) cout<<v[i].second.second;
+    cout<<endl;
+
+  
+}
+int main()
+{
+    t = 1;
+    while(t--)
+    {
+        solve();
+    }
+    return 0;
+}
