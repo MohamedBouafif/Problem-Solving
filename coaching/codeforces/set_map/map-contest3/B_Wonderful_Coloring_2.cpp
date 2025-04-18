@@ -19,23 +19,20 @@ void solve() {
     for(int i = 0;i<n;i++)
     {
         current_occ[v[i].first]++;
-        
-        // cout<<v[i].first<<" ";
         if(current_occ[v[i].first]<=k){
             m++;
-            if(m==k + 1) {m =1; l = i;}
+            
             ans[v[i].second] = m;
+            if(m==k ) {
+                m =0;
+                l = i;//last time i colored each element with distink color
+            }
         }
         else{
             ans[v[i].second] = 0;
         }
-        
-        
-        
-        
-
     }
-    if(l!=-1)
+    
     for(int i = l+1;i<n;i++)ans[v[i].second] = 0;
     for(auto e:ans)cout<<e<<" ";
     cout<<"\n";
