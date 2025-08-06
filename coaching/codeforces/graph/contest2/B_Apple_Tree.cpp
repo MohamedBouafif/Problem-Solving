@@ -4,7 +4,7 @@ using ll = long long;
 
 const int N = 1e6;
 vector<int> graph[N];
-bool vis[N], checked[N];
+bool vis[N];
 map<int,ll> mp;
 ll nb_pairs(int node)
 {
@@ -46,9 +46,6 @@ void solve()
     nb_pairs(1);
     int q;
     cin>>q;
-    // for(auto e:mp){
-    //     cout<<e.first<<" "<<e.second<<endl;
-    // }
     while(q--){
         int x,y;
         cin>>x>>y;

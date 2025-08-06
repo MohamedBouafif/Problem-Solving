@@ -4,7 +4,7 @@ using ll = long long;
 
 const int N = 1e5;
 vector<int> graph[N];
-bool vis[N], checked[N];
+bool vis[N];
 
 int max_depth(int node)
 {
@@ -29,7 +29,6 @@ void solve()
     cin >> n >> m;
 
     memset(vis, false, sizeof(vis));
-    memset(checked, false, sizeof(checked));
     for (int i = 1; i <= n; i++)
     {
         graph[i].clear();
