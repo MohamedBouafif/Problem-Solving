@@ -14,26 +14,17 @@ void solve()
     }
 
     sort(v.begin(), v.end());
-    if(v == a || n/2 >= x){cout<<"YES\n";return;}
+    if(v == a || n/2 >= x){cout<<"YES\n";}
     else{
-        for(int i = 0 ; i < n ;i++){
-            if(a[i] != v[i]){
-            int pos = (find(v.begin(),  v.end(), a[i]) - v.begin() );
-            int distance = abs(pos - i);
-                if(!(distance >= x || i+1 >= x || n - i - 1>=x)){
-                    cout<<"NO\n";
-                    return;
-                }
- 
+        for(int i = 0 ; i < n;i++){
+            if(v[i] != a[i] && (n - 1 - i < x && i < x ))
+            {
+                cout<<"NO\n";
+                return;
             }
         }
+        cout<<"YES\n";
     }
-    cout<<"YES\n";
-    
-
-
-
-
 }
 int main()
 {
