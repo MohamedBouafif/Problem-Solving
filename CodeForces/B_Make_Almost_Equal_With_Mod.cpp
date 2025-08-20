@@ -9,9 +9,10 @@
             int n;
             cin>>n;
             vector<ll> v(n);
-            ll m = 0;
-            for(int i = 0;i<n;i++){cin>>v[i];m = max(m,v[i]);}
-            for(int i = 0;i<=60;i++)
+            for(int i = 0;i<n;i++)
+                cin >> v[i];
+
+            for(int i = 0;i<=57;i++)
             {
                 bool on = 0, off = 0;
                 for(int j = 0;j<n;j++)

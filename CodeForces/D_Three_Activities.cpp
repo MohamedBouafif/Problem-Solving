@@ -1,69 +1,58 @@
-#include "bits/stdc++.h"
+#include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-
-vector<int> sol(vector<int>& a,int n)
-{
-    int b = -1, c=-1,d = -1;
-    vector<int> v;
-    for(int i = 0;i<n;i++)
-    {
-        if(b == -1 || a[i] > a[b]){
-            d = c;
-            c  =b;
-            b = i;
-        }
-        else if(c == -1 ||a[i] > a[c])
-        {
-             d = c;
-             c = i;
-        }
-        else if(d == -1 || a[i] > a[d])
-        {
-            d = i;
-        }
-    }
-    
-    v.push_back(b);
-    v.push_back(c);
-    v.push_back(d);
-    return v;
-   
-}
-
+using ll = long long;
 
 void solve()
 {
     int n;
-    cin>>n;
-    vector<int> a(n),b(n),c(n);
-    for(int i = 0;i<n;i++)cin>>a[i];
-    for(int i = 0;i<n;i++)cin>>b[i];
-    for(int i = 0;i<n;i++)cin>>c[i];
-    
-    vector <int> v1 = sol(a,n),v2 = sol(b,n),v3=sol(c,n);
-    
-    int ans = 0;
-    for(auto e1:v1)
+    cin >> n;
+    vector<pair<ll, ll>> a(n), b(n), c(n);
+    for (int i = 0; i < n; i++)
     {
-        for(auto e2:v2)
+        cin >> a[i].first;
+        a[i].second = i;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        cin >> b[i].first;
+        b[i].second = i;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        cin >> c[i].first;
+        c[i].second = i;
+    }
+    sort(a.begin(), a.end(), greater<pair<ll, ll>>());
+    sort(b.begin(), b.end(), greater<pair<ll, ll>>());
+    sort(c.begin(), c.end(), greater<pair<ll, ll>>());
+
+    
+    ll ans = 0;
+    for (int i = 0; i < 3; i++)
+    {
+        ll curr = a[i].first;
+        for (int j = 0; j < 3; j++)
         {
-            for(auto e3:v3)
-            {
-                if(e1!=e2 && e2!= e3 && e1!=e3)
+            if (b[j].second != a[i].second){
+                ll curr1 = b[j].first;
+                for (int k = 0; k < 3; k++)
                 {
-                    ans = max(ans,a[e1] + b[e2] + c[e3]);
+                    if (c[k].second != b[j].second && c[k].second !=a[i].second){
+                        ll curr2 = c[k].first;
+                        ans = max(ans, curr + curr1 + curr2);
+                    }
                 }
             }
+                
         }
     }
-    cout<<ans<<endl;
+    cout <<ans << endl;
 }
 int main()
 {
-    int tc;
-    cin>>tc;
-    while(tc--)
+    int t = 1;
+    cin >> t;
+    while (t--)
     {
         solve();
     }

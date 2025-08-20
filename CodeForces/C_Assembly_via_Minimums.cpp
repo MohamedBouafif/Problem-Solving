@@ -6,7 +6,6 @@ using  ll =long long;
 
 void solve()
 {
-    //any possible a from which b COULD have been obtained -> ashel 7aja nsorty l b
     int n;
     cin>>n;
     int B = n*(n-1)/2;
