@@ -3,26 +3,23 @@ using namespace std;
 using ll = long long;
 void solve()
 {
-    ll n;
-    cin >> n;
-    ll odd = 0, even = 0, maxx = 0;
-    ll s= 0;
-    vector<ll> v(n);
-    for(ll& x:v){
-        cin >> x;
-        maxx = max(x, maxx);
-        if(x%2)odd++;
-        else even ++;
-        s+= x;
+    int a,b,c,d;
+    cin >> a>>b>>c>>d;
+    if(a > c || b > d){
+        cout<<"NO\n";
+        return;
     }
-   
-    if(even == 0 || odd == 0)cout<<maxx<<endl;
-    else
-    {
-        odd--;
-        even = 1;
-        cout<< s - (odd - 1) - even<<endl;
+    if(max(a,b)> 2*(1+ min(a,b))){
+        cout<<"NO\n";
+        return;
     }
+    c-=a;
+    d-=b;
+    if(max(c,d)> 2*(1+ min(c,d))){
+        cout<<"NO\n";
+        return;
+    }
+    cout<<"YES\n";
     
    
     
