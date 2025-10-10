@@ -26,7 +26,7 @@ struct segtree
         int m = (lx + rx) / 2;
         build(a, 2*x+1, lx, m);
         build(a, 2*x+2, m,rx);
-        sum[x] = sum[2*x+1] + sum[2*x+2];
+        sums[x] = sums[2*x+1] + sums[2*x+2]; 
     }
 
     void build(vector<int>& a)
@@ -38,7 +38,7 @@ struct segtree
     {
         if (rx - lx == 1)
         {
-            sum[x] = v;
+            sums[x] = v;
             return;
         }
 
@@ -51,7 +51,7 @@ struct segtree
         {
             set(i, v, 2 * x + 2, m, rx);
         }
-        sums[x] = sum[2 * x + 1] + sums[2 * x + 2];//fil tlou3  sum[parent] = sum of both child
+        sums[x] = sums[2 * x + 1] + sums[2 * x + 2];
     }
     void set(int i, int v)
     {
@@ -74,7 +74,7 @@ struct segtree
     }
     long long sum(int l, int r)
     {
-        sum(l, r, 0, 0, size);
+        return sum(l, r, 0, 0, size);
     }
 };
 
@@ -91,6 +91,8 @@ int main()
         cin >> a[i];
     }
     st.build(a);//log(n)
+    for(auto e: st.sums)cout<<e<<" ";
+    cout<<endl;
     while (m--)
     {
         int op;
