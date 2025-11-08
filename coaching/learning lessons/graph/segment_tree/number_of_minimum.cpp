@@ -1,10 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct segtree
+struct minsegtree
 {
     int size;
-    vector<long long> sums;
+    vector<pair<int,int>> mini;
+
+    pair<int,int> merge(pair<int,int> a, pair<int,int> b) 
+    {
+        if(a.first < b.first)return a;
+        if(a.first > b.first)return b;
+        return {a.first, a.second + b.second};
+    }
 
     void init(int n)
     {
@@ -12,21 +19,22 @@ struct segtree
         size = 1;
         while (size < n)
             size *= 2;
-        sums.assign(2 * size, 0LL);
+        mini.resize(2 * size);
     }
     
     void build(vector<int>& a, int x, int lx, int rx)
     {
         if(rx - lx == 1) {
             if(lx < (int)a.size()) {
-                sums[x] = a[lx];
+                mini[x] = {a[lx],1};
             }
             return;
         }
         int m = (lx + rx) / 2;
         build(a, 2*x+1, lx, m);
         build(a, 2*x+2, m,rx);
-        sums[x] = sums[2*x+1] + sums[2*x+2]; 
+        
+        mini[x] = merge(mini[2*x+1], mini[2*x+2]); 
     }
 
     void build(vector<int>& a)
@@ -38,7 +46,7 @@ struct segtree
     {
         if (rx - lx == 1)
         {
-            sums[x] = v;
+            mini[x] = {v,1};
             return;
         }
 
@@ -51,30 +59,29 @@ struct segtree
         {
             set(i, v, 2 * x + 2, m, rx);
         }
-        sums[x] = sums[2 * x + 1] + sums[2 * x + 2];
+        
+        mini[x] = merge(mini[2*x+1], mini[2*x+2]); ; 
     }
     void set(int i, int v)
     {
         set(i, v, 0, 0, size);
     }
 
-
-
-
-    long long sum(int l, int r, int x, int lx, int rx)
+    pair<int,int> find_min(int l, int r, int x, int lx, int rx)
     {
         if (lx >= r || l >= rx)
-            return 0;
+            return {1e9,1};
         if (lx >= l && rx <= r)
-            return sums[x];
+            return mini[x];
         int m = (lx + rx) / 2;
-        long long s1 = sum(l, r, 2 * x + 1, lx, m);
-        long long s2 = sum(l, r, 2 * x + 2, m, rx);
-        return s1 + s2;
+        pair<int,int> min1 = find_min(l, r, 2 * x + 1, lx, m);
+        pair<int,int> min2 = find_min(l, r, 2 * x + 2, m, rx);
+        
+        return merge(min1,min2); 
     }
-    long long sum(int l, int r)
+    pair<int,int> find_min(int l, int r)
     {
-        return sum(l, r, 0, 0, size);
+        return find_min(l, r, 0, 0, size);
     }
 };
 
@@ -84,14 +91,14 @@ int main()
     int n, m;
     cin >> n >> m;
     vector<int> a(n);
-    segtree st;
+    minsegtree st;
     st.init(n);
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
     }
     st.build(a);//log(n)
-   
+    
     while (m--)
     {
         int op;
@@ -106,7 +113,8 @@ int main()
         {
             int l, r;
             cin >> l >> r;
-            cout << st.sum(l, r) << "\n";
+            pair<int,int> ans = st.find_min(l,r);
+            cout << ans.first << " " << ans.second << "\n";
         }
     }
     return 0;
