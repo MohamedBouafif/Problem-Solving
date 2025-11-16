@@ -15,61 +15,73 @@ void solve()
     vector<int> pref_xor(n);
     pref_xor[n - 1] = a[n - 1];
     for (int i = n - 2; i >= 0; i--)
-        pref_xor[i] = pref_xor[i + 1] ^ a[i];
+    {
+        if(a[i] == b[i])pref_xor[i] = a[i];
+        else  pref_xor[i] = pref_xor[i + 1] ^ a[i];
 
+    }
+    // for(auto e:pref_xor)cout<<e<<" ";
+    // cout<<endl;
     set<int> s;
-    
+
     if (a[n - 1] != b[n - 1])
     {
         cout << "NO\n";
         return;
     }
-    else
+
+    s.insert(b[n - 1]);
+    for (int i = n - 2; i >= 0; i--)
     {
-        s.insert(b[n - 1]);
-        for (int i = n - 2; i >= 0; i--)
+        if(a[i] == b[i])
         {
+            s.clear();
+            s.insert(a[i]);
+            continue;
+        }
+        int j = -1;
 
-            int j = -1;
-
-            for (int bit = 30; bit >= 0; bit--)
+        for (int bit = 30; bit >= 0; bit--)
+        {
+            if (b[i] & (1 << bit))
             {
-                if (b[i] & (1 << bit))
-                {
-                    j = bit;
-                    break;
-                }
-            }
-
-            int y = 0;
-            
-            if (j != -1)
-            {
-                for (int bit = j; bit >= 0; bit--)
-                {
-                    if (!(pref_xor[i] & (1 << bit)))
-                    {
-                        y |= (1 << bit);
-                    }
-                }
-            }
-            
-            if (pref_xor[i] == b[i] ||s.find(y) != s.end() || (s.find(a[i]) != s.end()&& a[i] == b[i]))
-            {
-                s.insert(pref_xor[i]);
-                continue;
-            }
-            else
-            {
-                cout << "NO\n";
-                return;
+                j = bit;
+                break;
             }
         }
+
+        int y = 0;
+
+        if (j != -1)
+        {
+            for (int bit = j; bit >= 0; bit--)
+            {
+                if (!(pref_xor[i] & (1 << bit)))
+                {
+                    y |= (1 << bit);
+                }
+            }
+        }
+        // cout<<"y = "<<y<<endl;
+        if(b[i] == 0 && s.find(pref_xor[i])!=s.end())
+        {
+            continue;
+        }
+        if(b[i] == pref_xor[i] || s.find(y)!=s.end())
+        {
+            s.insert(pref_xor[i]);
+            
+        }
+        else {
+            cout<<"NO\n";
+            return;
+        }
+        
+
     }
 
     cout << "YES\n";
 }
-
 
 int main()
 {
