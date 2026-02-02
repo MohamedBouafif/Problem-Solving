@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
@@ -22,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0110-balanced-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -36,4 +39,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0278-first-bad-version) |
+## Stack
+|  |
+| ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 <!---LeetCode Topics End-->
