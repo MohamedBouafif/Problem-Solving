@@ -28,4 +28,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Search
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0278-first-bad-version) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
