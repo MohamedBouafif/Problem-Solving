@@ -9,7 +9,7 @@ int main()
     double l = 0 , r = c;
     int  n = 100;
     while(n--){
-         double m = (l+r)/2;
+        double m = (l+r)/2;
         if((m*m) + sqrtf(m) >= c)
             r = m;
         else l = m;
