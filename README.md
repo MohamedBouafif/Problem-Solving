@@ -79,4 +79,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0501-find-mode-in-binary-search-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0501-find-mode-in-binary-search-tree) |
+## Array
+|  |
+| ------- |
+| [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
+## Hash Table
+|  |
+| ------- |
+| [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
+## Sorting
+|  |
+| ------- |
+| [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
+## Ordered Set
+|  |
+| ------- |
+| [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
 <!---LeetCode Topics End-->
