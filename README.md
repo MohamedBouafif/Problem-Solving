@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
 | [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
 ## Hash Table
 |  |
@@ -95,4 +96,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
+## Queue
+|  |
+| ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
+## Simulation
+|  |
+| ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
 <!---LeetCode Topics End-->
