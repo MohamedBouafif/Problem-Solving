@@ -12,7 +12,6 @@ public:
                 if(grid[i][j]%x != d){
                     return -1;
                 }
-                ans += grid[i][j];
                 v.push_back(grid[i][j]);
             }
         }
