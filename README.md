@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
 | [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
@@ -110,15 +111,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
 | [0649-dota2-senate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0649-dota2-senate) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
 ## Simulation
 |  |
 | ------- |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
 ## Math
 |  |
 | ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 ## Matrix
 |  |
@@ -136,4 +140,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
+## Recursion
+|  |
+| ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1823-find-the-winner-of-the-circular-game) |
 <!---LeetCode Topics End-->
