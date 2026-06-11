@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
+| [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 ## String
 |  |
 | ------- |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
 | [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
@@ -101,10 +103,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
 ## Simulation
 |  |
 | ------- |
+| [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
 ## Math
 |  |
