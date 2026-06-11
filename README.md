@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0257-binary-tree-paths) |
+| [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
 | [0404-sum-of-left-leaves](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0257-binary-tree-paths) |
+| [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
 | [0404-sum-of-left-leaves](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0572-subtree-of-another-tree) |
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
+| [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 ## String
 |  |
@@ -104,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
 | [0649-dota2-senate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0649-dota2-senate) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [2073-time-needed-to-buy-tickets](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2073-time-needed-to-buy-tickets) |
@@ -124,4 +128,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0649-dota2-senate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0649-dota2-senate) |
+## Design
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
+## Iterator
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
