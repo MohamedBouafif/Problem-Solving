@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0145-binary-tree-postorder-traversal) |
 | [0341-flatten-nested-list-iterator](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0341-flatten-nested-list-iterator) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 ## String
 |  |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -144,4 +146,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1823-find-the-winner-of-the-circular-game) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 <!---LeetCode Topics End-->
