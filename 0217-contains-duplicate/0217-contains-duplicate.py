@@ -1,8 +1,8 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         occ = defaultdict(int)
-        for j in range(len(nums)):
-            occ[nums[j]] +=1
-            if occ[nums[j]]>1:
+        for e in nums:
+            occ[e] +=1
+            if occ[e]>1:
                 return True
         return False
