@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/MohamedBouafif/Problem-Solving/tree/master/1823-find-the-winner-of-the-circular-game) |
@@ -97,10 +98,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0217-contains-duplicate) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
 ## Ordered Set
