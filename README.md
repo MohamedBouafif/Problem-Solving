@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0257-binary-tree-paths) |
 | [0649-dota2-senate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0649-dota2-senate) |
 ## Backtracking
@@ -99,11 +100,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0242-valid-anagram) |
 | [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
 ## Sorting
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/MohamedBouafif/Problem-Solving/tree/master/0242-valid-anagram) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2363-merge-similar-items](https://github.com/MohamedBouafif/Problem-Solving/tree/master/2363-merge-similar-items) |
 ## Ordered Set
